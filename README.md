@@ -36,3 +36,14 @@ NetGuard_AI
 ├── requirements.txt
 └── .gitignore
 ```
+## Dataset
+
+This project uses the KDD intrusion detection dataset.
+
+Place the dataset inside the project directory before running the application.
+
+Example:
+
+dataset/
+├── KDDTrain+.csv
+└── KDDTest+.csv
