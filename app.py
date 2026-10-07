@@ -1,13 +1,13 @@
 import streamlit as st
 st.set_page_config(
-    page_title="NetGuard AI",
+    page_title="NetGuard",
     page_icon="🛡️",
     layout="wide"
 )
-st.title("🛡️ NetGuard AI")
-st.subheader("AI-Powered Network Intrusion Detection System")
+st.title("🛡️ NetGuard")
+st.subheader("Network Intrusion Detection System")
 st.markdown(""" 
-**NetGuard AI** is an intelligent cybersecurity application that detects anomalous
+**NetGuard** is an intelligent cybersecurity application that detects anomalous
 and malicious network traffic using unsupervised machine learning techniques.
 
 The system allows users to:
@@ -15,7 +15,7 @@ The system allows users to:
 - 📂 Upload network traffic datasets
 - 📊 Analyze dataset statistics
 - 🧹 Preprocess data automatically
-- 🛡️ Detect anomalies using AI models
+- 🛡️ Detect anomalies using models
 - 📈 Compare multiple detection algorithms
 - 🏆 View detailed performance reports""")
 
@@ -124,4 +124,4 @@ else:
         "👈 Upload a supported intrusion detection dataset using the sidebar to begin."
     )
 
-st.caption("NetGuard AI • Built using Streamlit • Scikit-learn • Python")
+st.caption("NetGuard • Built using Streamlit • Scikit-learn • Python")
